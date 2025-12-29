@@ -7,30 +7,31 @@ import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
 import Floatingicon from "./Components/Floatingicon"
 import { useState } from "react"
+import Expertise from "./Components/Expertise"
 
 
-const  App =() =>  {
-   const[dark,setDark]= useState(false);
+const App = () => {
+  const [dark, setDark] = useState(false);
 
-   const toggle = ()=> {
-  setDark(prev => !prev);
-}
+  const toggle = () => {
+    setDark(prev => !prev);
+  }
   return (
-   
-<>
-       <main className={dark ? "bg-gray-900 text-white" : "bg-white text-black"}>
 
-        <Header mode={toggle}/>
-        <Home/>
-      
-        <About/>
-        <Skills/>
-        <Contact/>
-        <Footer/>
-        <Floatingicon/>
-       </main>
+    <>
+      <main className={dark ? "bg-gray-900 text-white" : "bg-white text-black"}>
 
-      </>
+        <Header mode={toggle} />
+        <Home />
+        <About />
+        <Contact />
+        <Expertise />
+        <Skills />
+        <Footer />
+        <Floatingicon />
+      </main>
+
+    </>
   )
 }
 

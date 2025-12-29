@@ -1,39 +1,23 @@
-import { Mail, MapPin, Phone, Users } from "lucide-react"
+import { Mail, MapPin, Phone } from "lucide-react"
+import { FaGlobe } from "react-icons/fa"
 
 const ProfileData = {
-  guidanceRole:
-    "Available for Ph.D. supervision, research collaboration, heritage project consultations, and academic career mentoring for aspiring historians.",
-  email: "a.harrison@westfield.edu",
-  phone: "+1 (555) 234-5678",
-  location: "Cambridge, United Kingdom",
+  email: "hansavyas5418@gmail.com",
+  phone: "+ 91 7987878133",
+  location: "Narmadapuram M.P.",
   website: "https://westfield.edu/harrison",
 }
 
 const Contact = () => {
   return (
     <>
-      {/* Guidance & Consultation */}
-      <section
-        className="px-6 py-4 animate-fade-in"
-        style={{ animationDelay: "0.4s" }}
-      >
-        <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#8b2c3a] mb-3">
-          <Users className="w-4 h-4 text-[#8b2c3a]" />
-          Guidance & Consultation
-        </h2>
-
-        <p className="text-sm leading-relaxed text-[#6f625a] italic">
-          {ProfileData.guidanceRole}
-        </p>
-      </section>
-
-      {/* Contact */}
+     
       <section
         className="px-6 py-4 space-y-3 animate-fade-in"
         style={{ animationDelay: "0.5s" }}
       >
-        <h2 className="text-xs font-semibold uppercase tracking-wider text-[#8b2c3a] mb-3">
-          Contact
+        <h2 className="text-xs flex gap-2 items-center font-semibold uppercase tracking-wider text-[#8b2c3a] mb-3">
+         <FaGlobe/> Contact
         </h2>
 
         {/* Email */}

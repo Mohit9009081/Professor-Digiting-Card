@@ -1,9 +1,10 @@
 import { GraduationCap } from "lucide-react"
+import { FiSun } from "react-icons/fi"
 
 const profileData = {
   name: "Dr. Alexander Harrison",
-  institution: "Westfield Heritage University",
-  photo: "/profile.jpg", // replace with actual image path
+  institution: "Barkatullah University",
+  photo: "/professor.jpg", // replace with actual image path
 }
 
 const Header = ({mode}) => {
@@ -11,9 +12,9 @@ const Header = ({mode}) => {
     <>
          <button
     onClick={mode}
-    className="text-2xl text-emerald-600 absolute top-0 right-1 z-10 rounded"
+    className="text-2xl text-emerald-600 absolute top-2 right-2 z-10 rounded"
   >
-    + 
+   <FiSun/>
   </button>
       {/* Header */}
       <header className="relative px-6 pt-8 pb-20 bg-[#5b1f2b]">

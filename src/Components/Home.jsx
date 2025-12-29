@@ -1,8 +1,8 @@
 const profileData = {
-  name: "Dr. Alexander Harrison",
-  credentials: "Ph.D., M.A., B.A. (Hons)",
+  name: "Hansha Vyas",
+  credentials: "Ph.D., M.A.(Hist)",
   designation: "Professor of History & Academic Consultant",
-  institution: "Westfield Heritage University",
+  institution: "",
   department: "Department of Historical Studies",
 }
 

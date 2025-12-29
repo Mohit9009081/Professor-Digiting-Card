@@ -2,7 +2,7 @@
 import { FaWhatsapp } from "react-icons/fa"
 
 const Floatingicon = () => {
-  const whatsappNumber = "+15552345678" // same as contact phone
+  const whatsappNumber = "+919425366286" // same as contact phone
   const message = encodeURIComponent(
     "Hello Professor, I would like to inquire about academic guidance and consultation."
   )
