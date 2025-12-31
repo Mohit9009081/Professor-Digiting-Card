@@ -14,7 +14,7 @@ const About = () => {
     <section className="px-6">
       
 
-      <p className="text-sm font-semibold p-6  bg-[#f3ece6] border rounded-2xl border-[#d6c8be]
+      <p className="text-sm font-bold p-6  bg-[#f3ece6] border rounded-2xl border-[#d6c8be]
                      hover:bg-[#e9dfd6] transition-colors group leading-relaxed italic text-[#6f625a]">
         {aboutText}
       </p>
