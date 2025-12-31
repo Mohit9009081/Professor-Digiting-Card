@@ -8,13 +8,13 @@ const About = () => {
   return (
    <>
  <h2 className="flex items-center gap-2 text-xs font-semibold mb-2 uppercase tracking-wider text-[#8b2c3a] px-6">
-        <BookOpen className="w-4 h-4 text-[#8b2c3a]" />
+        <BookOpen className="w-4 h-4  text-[#8b2c3a]" />
         About
       </h2>
     <section className="px-6">
       
 
-      <p className="text-sm p-6  bg-[#f3ece6] border rounded-2xl border-[#d6c8be]
+      <p className="text-sm font-semibold p-6  bg-[#f3ece6] border rounded-2xl border-[#d6c8be]
                      hover:bg-[#e9dfd6] transition-colors group leading-relaxed italic text-[#6f625a]">
         {aboutText}
       </p>

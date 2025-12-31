@@ -26,7 +26,7 @@ const Expertise = () => {
         {specialities.map((specialty, index) => (
           <span
             key={index}
-            className="px-3 py-1.5 text-xs rounded-xl border 
+            className="px-3 py-1.5 font-semibold rounded-xl border 
                        bg-[#f3ece6] text-[#5b1f2b] border-[#d6c8be]
                        hover:bg-[#e9dfd6] transition-colors"
           >

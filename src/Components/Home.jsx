@@ -16,11 +16,11 @@ const Home = () => {
           {profileData.name}
         </h1>
 
-        <p className="text-sm italic text-[#7a6a60]">
+        <p className="text-md italic text-[#7a6a60]">
           {profileData.credentials}
         </p>
 
-        <p className="text-base font-semibold text-[#8b2c3a]">
+        <p className="text-md font-semibold text-[#8b2c3a]">
           {profileData.designation}
         </p>
 

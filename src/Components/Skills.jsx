@@ -19,11 +19,11 @@ const Skills = () => {
         Educations
       </h2>
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-4">
         {specialities.map((specialty, index) => (
           <span
             key={index}
-            className="px-3 py-1.5 text-xs rounded-full border 
+            className="px-5 py-1.5 text-md rounded-full border 
                        bg-[#f3ece6] text-[#5b1f2b] border-[#d6c8be]
                        hover:bg-[#e9dfd6] transition-colors"
           >
